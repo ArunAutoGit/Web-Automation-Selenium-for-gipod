@@ -1,9 +1,8 @@
-package com.test;
+package com.n;
 
-import org.openqa.selenium.By;  
 import org.openqa.selenium.JavascriptExecutor;  
-import org.openqa.selenium.WebDriver;  
-import org.openqa.selenium.chrome.ChromeDriver;  
+import org.openqa.selenium.chrome.ChromeDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -12,8 +11,8 @@ public class Third {
     public static void main(String[] args) {  
       
         
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        // WebDriverManager.chromedriver().setup();
+        ChromeDriver driver = new ChromeDriver();
 
            // Launch Website  
         driver.navigate().to("https://www.google.com/");  
